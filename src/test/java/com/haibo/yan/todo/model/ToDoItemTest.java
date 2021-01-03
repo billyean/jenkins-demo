@@ -1,4 +1,4 @@
-package com.manning.gia.todo.model;
+package com.haibo.yan.todo.model;
 
 import org.junit.Test;
 

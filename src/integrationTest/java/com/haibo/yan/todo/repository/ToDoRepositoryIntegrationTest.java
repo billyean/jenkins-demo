@@ -1,6 +1,7 @@
-package com.manning.gia.todo.repository;
+package com.haibo.yan.todo.repository;
 
-import com.manning.gia.todo.model.ToDoItem;
+import com.haibo.yan.todo.model.ToDoItem;
+import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -66,7 +67,7 @@ public class ToDoRepositoryIntegrationTest {
         assertNotNull(toDoItem.getId());
         toDoItem.setName("Clean dishes");
         repository.save(toDoItem);
-        assertEquals(repository.findOne(toDoItem.getId()).getName(), "Clean dishes");
+        Assert.assertEquals(repository.findOne(toDoItem.getId()).getName(), "Clean dishes");
     }
 
     private ToDoItem persistToDoItem(String name) {

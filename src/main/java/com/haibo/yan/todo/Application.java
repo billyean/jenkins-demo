@@ -1,4 +1,4 @@
-package com.manning.gia.todo;
+package com.haibo.yan.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,7 +1,7 @@
-package com.manning.gia.todo.web;
+package com.haibo.yan.todo.web;
 
-import com.manning.gia.todo.model.ToDoItem;
-import com.manning.gia.todo.repository.ToDoRepository;
+import com.haibo.yan.todo.model.ToDoItem;
+import com.haibo.yan.todo.repository.ToDoRepository;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
